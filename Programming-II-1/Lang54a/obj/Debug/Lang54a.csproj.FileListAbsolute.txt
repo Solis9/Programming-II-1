@@ -1,0 +1,9 @@
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\bin\Debug\Lang54a.exe.config
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\bin\Debug\Lang54a.exe
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\bin\Debug\Lang54a.pdb
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.Form1.resources
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.Properties.Resources.resources
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.csproj.GenerateResource.Cache
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.exe
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.pdb
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Lang54a\obj\Debug\Lang54a.csprojResolveAssemblyReference.cache

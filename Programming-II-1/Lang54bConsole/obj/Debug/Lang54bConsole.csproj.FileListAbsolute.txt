@@ -1,0 +1,5 @@
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang54bConsole\bin\Debug\Lang54bConsole.exe.config
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang54bConsole\bin\Debug\Lang54bConsole.exe
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang54bConsole\bin\Debug\Lang54bConsole.pdb
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang54bConsole\obj\Debug\Lang54bConsole.exe
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang54bConsole\obj\Debug\Lang54bConsole.pdb

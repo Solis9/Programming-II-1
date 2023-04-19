@@ -1,0 +1,6 @@
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\bin\Debug\Lang52aConsole.exe.config
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\bin\Debug\Lang52aConsole.exe
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\bin\Debug\Lang52aConsole.pdb
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\obj\Debug\Lang52aConsole.csprojResolveAssemblyReference.cache
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\obj\Debug\Lang52aConsole.exe
+C:\Users\solis.y\Desktop\Programing_II-1#2\Programming-II-1\Lang52aConsole\obj\Debug\Lang52aConsole.pdb
