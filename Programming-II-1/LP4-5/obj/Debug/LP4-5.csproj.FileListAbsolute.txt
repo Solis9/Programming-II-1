@@ -4,3 +4,6 @@ C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\LP4-5\bin\De
 C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\LP4-5\obj\Debug\LP4-5.csprojResolveAssemblyReference.cache
 C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\LP4-5\obj\Debug\LP4-5.exe
 C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\LP4-5\obj\Debug\LP4-5.pdb
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\LP4-5\bin\Debug\LP4-5.exe.config
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\LP4-5\obj\Debug\LP4-5.exe
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\LP4-5\obj\Debug\LP4-5.pdb
