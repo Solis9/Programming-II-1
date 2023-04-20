@@ -1,0 +1,5 @@
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Fav_club\bin\Debug\Fav_club.exe.config
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Fav_club\bin\Debug\Fav_club.exe
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Fav_club\bin\Debug\Fav_club.pdb
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Fav_club\obj\Debug\Fav_club.exe
+C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\Fav_club\obj\Debug\Fav_club.pdb
