@@ -16,5 +16,11 @@ namespace Prog535
         {
             InitializeComponent();
         }
+
+        private void btnCatch_Click(object sender, EventArgs e)
+        {
+            private string[] strCaption = {"Click here", "Try harder!", "Try again", "Not even close", "Where are you?", "I'm over here!", "Slow, aren't you?"};
+            private Random rand = new Random();
+        }
     }
 }
