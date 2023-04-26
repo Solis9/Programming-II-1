@@ -1,5 +1,6 @@
-C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
-C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
-C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
-C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
-C:\Users\solis.y\Documents\GitHub\Programming-II-1\Programming-II-1\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\bin\Debug\Your_name.exe.config
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\bin\Debug\Your_name.exe
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\bin\Debug\Your_name.pdb
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\obj\Debug\Your_name.csprojResolveAssemblyReference.cache
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\obj\Debug\Your_name.exe
+C:\Users\solis.y\Desktop\New folder\Programming-II-1\Programming-II-1\Your_name\obj\Debug\Your_name.pdb
