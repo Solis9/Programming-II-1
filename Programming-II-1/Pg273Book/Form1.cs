@@ -19,21 +19,14 @@ namespace Pg273Book
 
         private void button1_Click(object sender, EventArgs e)
         {
-           int pts = 0;
-           int books = int(textBox1.Text);
+            int points = 0;
+            //string books = (textBox1.Text);
 
-            if (books) = 0;{
-                pts = 0;
-            } else if (books) = 1 {
-                pts = 5;
-            } else if (books) = 2 {
-                pts = 15;
-            } else if (books) = 3 {
-                pts = 30;
-            } else if (books) >= 4 {
-                pts = 60;
+            if (textBox1.Text == 0) {
+                points = 0;
             }
-
+            
+            label2.Text = points.ToString();
         }
     }
 }
