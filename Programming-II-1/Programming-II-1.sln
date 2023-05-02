@@ -41,6 +41,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcWithFunctions", "CalcWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg273Mass", "Pg273Mass\Pg273Mass.csproj", "{B7B5012C-2FDD-465C-BE79-B05CD55ABCD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang366b", "Lang366b\Lang366b.csproj", "{0930E921-1D44-4CC3-AFD1-52A33477A3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang85c", "Lang85c\Lang85c.csproj", "{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +127,14 @@ Global
 		{B7B5012C-2FDD-465C-BE79-B05CD55ABCD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7B5012C-2FDD-465C-BE79-B05CD55ABCD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7B5012C-2FDD-465C-BE79-B05CD55ABCD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0930E921-1D44-4CC3-AFD1-52A33477A3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0930E921-1D44-4CC3-AFD1-52A33477A3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0930E921-1D44-4CC3-AFD1-52A33477A3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0930E921-1D44-4CC3-AFD1-52A33477A3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
