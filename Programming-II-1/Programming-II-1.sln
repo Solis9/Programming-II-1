@@ -45,6 +45,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang366b", "Lang366b\Lang36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang85c", "Lang85c\Lang85c.csproj", "{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg435Ticket", "Pg435Ticket\Pg435Ticket.csproj", "{8D2C817D-FF37-4B9F-889A-45951336AC24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang54b", "Lang54b\Lang54b.csproj", "{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,14 @@ Global
 		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DFBD5D8-0343-4EAD-AD53-BB3CA81F4B69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D2C817D-FF37-4B9F-889A-45951336AC24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D2C817D-FF37-4B9F-889A-45951336AC24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D2C817D-FF37-4B9F-889A-45951336AC24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D2C817D-FF37-4B9F-889A-45951336AC24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

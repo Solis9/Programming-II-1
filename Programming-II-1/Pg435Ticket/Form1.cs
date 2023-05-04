@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Pg273Book
+namespace Pg435Ticket
 {
     public partial class Form1 : Form
     {
@@ -19,14 +19,22 @@ namespace Pg273Book
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int points = 0;
-            int books = int.Parse(textBox1.Text);
+            GeneralForm frm = new GeneralForm(this);
+            // frm = GeneralForm(self)
+            frm.Show();
+            this.Hide();
+        }
 
-            if (books = 0) {
-                points = 0;
-            }
-            
-            label2.Text = points.ToString();
+        private void button2_Click(object sender, EventArgs e)
+        {
+            StudentForm frm = new StudentForm(this);
+            frm.Show();
+            this.Hide();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
