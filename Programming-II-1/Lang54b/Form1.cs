@@ -29,5 +29,20 @@ namespace Lang54b
             label7.Text = sum.ToString();
             label8.Text = average.ToString();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = "";
+            textBox2.Text = "";
+            textBox3.Text = "";
+            textBox4.Text = "";
+            label7.Text = "";
+            label8.Text = "";
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
