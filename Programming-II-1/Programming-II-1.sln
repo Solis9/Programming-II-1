@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg435Ticket", "Pg435Ticket\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang54b", "Lang54b\Lang54b.csproj", "{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg266", "Pg266\Pg266.csproj", "{A2F662B7-DB93-430E-9580-6F96294546D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +149,10 @@ Global
 		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83ECF887-F71E-40B4-80F2-A0A4ED5A6934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2F662B7-DB93-430E-9580-6F96294546D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2F662B7-DB93-430E-9580-6F96294546D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2F662B7-DB93-430E-9580-6F96294546D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2F662B7-DB93-430E-9580-6F96294546D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
