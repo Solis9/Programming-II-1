@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "Pg485Skateboard", "Pg485Skateboard\Pg485Skateboard.pyproj", "{D6BE9ABA-2444-4ACA-AD36-4D950340B23E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6BE9ABA-2444-4ACA-AD36-4D950340B23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BE9ABA-2444-4ACA-AD36-4D950340B23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BE9ABA-2444-4ACA-AD36-4D950340B23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BE9ABA-2444-4ACA-AD36-4D950340B23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
