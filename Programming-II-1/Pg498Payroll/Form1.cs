@@ -24,27 +24,32 @@ namespace Pg498Payroll
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int[] inthours = new int[intMAX_EMPLYEES];
+            int[] intHours = new int[intMAX_EMPLYEES];
             int intCount = 0;
             int intEmpHours = 0;
             decimal decEmpPay = 0.0m;
 
             for (intCount = 0; intCount < intMAX_EMPLYEES; intCount++) {
                 while (int.TryParse(
-                    Interaction.InputBox("Enter the number of hours worked by employee #"
-                    (intCount+1).toString(), "Need Hours Worked"),
+                    Interaction.InputBox("Enter the number of hours worked by employee #" +
+                    (intCount+1).ToString(), "Need Hours Worked"),
                     out intEmpHours) == false) {
                         MessageBox.Show("Please enter an integer for hours worked");
 
                 }
                 intHours[intCount] = intEmpHours;
             }
-            ListBox1.Items.Clear();
-            for (intCount = 0; intCount < intMAX_EMPLYEESk intCount++) {
+            listBox1.Items.Clear();
+            for (intCount = 0; intCount < intMAX_EMPLYEES; intCount++) {
                 decEmpPay = intHours[intCount] * decHOURLY_PAY_RATE;
-                ListBox1.Items.Add("Employee " + (intCount+1).ToString() +
-                    )
+                listBox1.Items.Add("Employee " + (intCount + 1).ToString() +
+                    " earned " + decEmpPay.ToString("$.00"));
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

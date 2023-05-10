@@ -17,10 +17,17 @@ namespace Prog535
             InitializeComponent();
         }
 
-        private void btnCatch_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            private string[] strCaption = {"Click here", "Try harder!", "Try again", "Not even close", "Where are you?", "I'm over here!", "Slow, aren't you?"};
-            private Random rand = new Random();
+            MessageBox.Show("You got me!", "", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+            Application.Exit();
+        }
+
+        private void button1_MouseEnter(object sender, EventArgs e)
+        {
+            int intIndex = rand.Next
         }
     }
 }
+
+        
