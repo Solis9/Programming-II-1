@@ -19,8 +19,17 @@ namespace Pg273Mass
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int mass = int.Parse(textBox1.Text);
+            double mass = double.Parse(textBox1.Text);
             double weight = mass * 9.8;
+
+            if (weight > 1000) {
+                MessageBox.Show("Object is too heavy");
+            }
+            else if (weight < 10) {
+                MessageBox.Show("Object is too light");
+            }
+
+            label3.Text = weight.ToString();
         }
 
         private void button2_Click(object sender, EventArgs e)
