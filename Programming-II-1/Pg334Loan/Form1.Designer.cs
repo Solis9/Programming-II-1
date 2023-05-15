@@ -29,22 +29,22 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.txtMonth = new System.Windows.Forms.TextBox();
+            this.txtDownPayment = new System.Windows.Forms.TextBox();
+            this.txtCost = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.radUsed = new System.Windows.Forms.RadioButton();
+            this.radNew = new System.Windows.Forms.RadioButton();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lstOutput = new System.Windows.Forms.ListBox();
+            this.lblAnnInt = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.radNew = new System.Windows.Forms.RadioButton();
-            this.radUsed = new System.Windows.Forms.RadioButton();
-            this.lblAnnInt = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.lstOutput = new System.Windows.Forms.ListBox();
-            this.txtCost = new System.Windows.Forms.TextBox();
-            this.txtDownPayment = new System.Windows.Forms.TextBox();
-            this.txtMonth = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -66,6 +66,51 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Vehical & Loan Information";
             // 
+            // txtMonth
+            // 
+            this.txtMonth.Location = new System.Drawing.Point(208, 107);
+            this.txtMonth.Name = "txtMonth";
+            this.txtMonth.Size = new System.Drawing.Size(100, 26);
+            this.txtMonth.TabIndex = 5;
+            // 
+            // txtDownPayment
+            // 
+            this.txtDownPayment.Location = new System.Drawing.Point(208, 63);
+            this.txtDownPayment.Name = "txtDownPayment";
+            this.txtDownPayment.Size = new System.Drawing.Size(100, 26);
+            this.txtDownPayment.TabIndex = 4;
+            // 
+            // txtCost
+            // 
+            this.txtCost.Location = new System.Drawing.Point(208, 28);
+            this.txtCost.Name = "txtCost";
+            this.txtCost.Size = new System.Drawing.Size(100, 26);
+            this.txtCost.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.Location = new System.Drawing.Point(52, 110);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 24);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Number of Months:";
+            // 
+            // label2
+            // 
+            this.label2.Location = new System.Drawing.Point(6, 65);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(196, 24);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Amount of down payment:";
+            // 
+            // label1
+            // 
+            this.label1.Location = new System.Drawing.Point(82, 28);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(120, 24);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Cost of vehicle:";
+            // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.radUsed);
@@ -78,75 +123,16 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "New or Used?";
             // 
-            // groupBox3
+            // radUsed
             // 
-            this.groupBox3.Controls.Add(this.lstOutput);
-            this.groupBox3.Controls.Add(this.lblAnnInt);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(12, 170);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(326, 255);
-            this.groupBox3.TabIndex = 2;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Interest and Prinipal Payments";
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(344, 188);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(90, 28);
-            this.button1.TabIndex = 3;
-            this.button1.Text = "Calculate";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(344, 237);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(90, 28);
-            this.button2.TabIndex = 4;
-            this.button2.Text = "Clear";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(344, 286);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(90, 28);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Exit";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // label1
-            // 
-            this.label1.Location = new System.Drawing.Point(82, 28);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(120, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Cost of vehicle:";
-            // 
-            // label2
-            // 
-            this.label2.Location = new System.Drawing.Point(6, 65);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(196, 24);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Amount of down payment:";
-            // 
-            // label3
-            // 
-            this.label3.Location = new System.Drawing.Point(52, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(150, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Number of Months:";
+            this.radUsed.AutoSize = true;
+            this.radUsed.Location = new System.Drawing.Point(32, 91);
+            this.radUsed.Name = "radUsed";
+            this.radUsed.Size = new System.Drawing.Size(65, 24);
+            this.radUsed.TabIndex = 1;
+            this.radUsed.TabStop = true;
+            this.radUsed.Text = "Used";
+            this.radUsed.UseVisualStyleBackColor = true;
             // 
             // radNew
             // 
@@ -159,16 +145,27 @@
             this.radNew.Text = "New";
             this.radNew.UseVisualStyleBackColor = true;
             // 
-            // radUsed
+            // groupBox3
             // 
-            this.radUsed.AutoSize = true;
-            this.radUsed.Location = new System.Drawing.Point(32, 91);
-            this.radUsed.Name = "radUsed";
-            this.radUsed.Size = new System.Drawing.Size(65, 24);
-            this.radUsed.TabIndex = 1;
-            this.radUsed.TabStop = true;
-            this.radUsed.Text = "Used";
-            this.radUsed.UseVisualStyleBackColor = true;
+            this.groupBox3.Controls.Add(this.lstOutput);
+            this.groupBox3.Controls.Add(this.lblAnnInt);
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Location = new System.Drawing.Point(12, 170);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(561, 255);
+            this.groupBox3.TabIndex = 2;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Interest and Prinipal Payments";
+            // 
+            // lstOutput
+            // 
+            this.lstOutput.FormattingEnabled = true;
+            this.lstOutput.ItemHeight = 20;
+            this.lstOutput.Location = new System.Drawing.Point(10, 49);
+            this.lstOutput.Name = "lstOutput";
+            this.lstOutput.Size = new System.Drawing.Size(545, 184);
+            this.lstOutput.TabIndex = 5;
             // 
             // lblAnnInt
             // 
@@ -187,41 +184,44 @@
             this.label5.TabIndex = 3;
             this.label5.Text = "Annual Interest Rate:";
             // 
-            // lstOutput
+            // button1
             // 
-            this.lstOutput.FormattingEnabled = true;
-            this.lstOutput.ItemHeight = 20;
-            this.lstOutput.Location = new System.Drawing.Point(10, 49);
-            this.lstOutput.Name = "lstOutput";
-            this.lstOutput.Size = new System.Drawing.Size(192, 184);
-            this.lstOutput.TabIndex = 5;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(12, 431);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(90, 28);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Calculate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtCost
+            // button2
             // 
-            this.txtCost.Location = new System.Drawing.Point(208, 28);
-            this.txtCost.Name = "txtCost";
-            this.txtCost.Size = new System.Drawing.Size(100, 26);
-            this.txtCost.TabIndex = 3;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(141, 431);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(90, 28);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Clear";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // txtDownPayment
+            // button3
             // 
-            this.txtDownPayment.Location = new System.Drawing.Point(208, 63);
-            this.txtDownPayment.Name = "txtDownPayment";
-            this.txtDownPayment.Size = new System.Drawing.Size(100, 26);
-            this.txtDownPayment.TabIndex = 4;
-            // 
-            // txtMonth
-            // 
-            this.txtMonth.Location = new System.Drawing.Point(208, 107);
-            this.txtMonth.Name = "txtMonth";
-            this.txtMonth.Size = new System.Drawing.Size(100, 26);
-            this.txtMonth.TabIndex = 5;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(282, 431);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(90, 28);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Exit";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(738, 470);
+            this.ClientSize = new System.Drawing.Size(584, 470);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

@@ -37,6 +37,25 @@ namespace Pg334Loan
                 return;
             }
 
+            dblPayment = Financial.Pmt(dblAnnualRate / sngMONTHS_YEAR, intMonths, -dblLoan);
+
+            lstOutput.Items.Clear();
+
+            for (intCount = 1; intCount <= intMonths; intCount++) {
+                string strOut = string.Empty;
+
+                dblInterest = Financial.PPmt(dblAnnualRate / sngMONTHS_YEAR, intCount, intMonths, -dblLoan);
+
+                dblPrincipal = Financial.PPmt(dblAnnualRate / sngMONTHS_YEAR, intCount, intMonths, -dblLoan);
+
+                strOut += "Month: " + intCount;
+                strOut += " Payment: " + dblPayment.ToString("$.00");
+                strOut += " Interest: " + dblInterest.ToString("$.00");
+                strOut += " Principal: " + dblPrincipal.ToString("$.00");
+
+                lstOutput.Items.Add(strOut);
+                lblAnnInt.Text = dblNEW_RATE.ToString(".00%");
+            }
         }
 
         const int intMIN_MONTHS = 6;
@@ -50,12 +69,26 @@ namespace Pg334Loan
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            txtCost.CausesValidation = false;
+            txtDownPayment.CausesValidation = false;
+            txtMonth.CausesValidation = false;
+            radNew.Checked = true;
+            dblAnnualRate = dblNEW_RATE;
+            lblAnnInt.Text = "";
+            txtCost.Clear();
+            txtDownPayment.Clear();
+            txtMonth.Clear();
+            lstOutput.Items.Clear();
+            txtCost.Focus();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
+            txtCost.CausesValidation = false;
+            txtDownPayment.CausesValidation = false;
+            txtMonth.CausesValidation = false;
 
+            Application.Exit();
         }
     }
 }
