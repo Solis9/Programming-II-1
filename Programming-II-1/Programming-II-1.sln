@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lang122d", "lang122d\lang12
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg334Loan", "Pg334Loan\Pg334Loan.csproj", "{FBBA69C8-6CCF-49B5-8528-82DE58319C6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pg514Sales", "Pg514Sales\Pg514Sales.csproj", "{C151F61D-5085-4A58-89EB-EB9A4B56DC01}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{FBBA69C8-6CCF-49B5-8528-82DE58319C6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBBA69C8-6CCF-49B5-8528-82DE58319C6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBBA69C8-6CCF-49B5-8528-82DE58319C6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C151F61D-5085-4A58-89EB-EB9A4B56DC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C151F61D-5085-4A58-89EB-EB9A4B56DC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C151F61D-5085-4A58-89EB-EB9A4B56DC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C151F61D-5085-4A58-89EB-EB9A4B56DC01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
